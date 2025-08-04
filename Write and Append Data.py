@@ -2,7 +2,8 @@ file=open("output.txt","w")
 write=str(input("Enter text to write to the file: "))
 writing_file=file.write(write+"\n")
 file.close()
-if writing_file==len(write)+1:
+if writing_file==len(write)+1:'''1 is for \n like hi is 2 +1 for \n and 
+len because the output of write is in the number'''
     print("Data successfully written to output.txt")
 else:
     print("Data successfully not written to output.txt")
@@ -19,3 +20,4 @@ reading_file=file.read()
 print("Final contents of output.txt:")
 print(reading_file)
 file.close()
+
